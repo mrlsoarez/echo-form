@@ -102,6 +102,12 @@ $left-size: 40vw;
     padding: 0.3em;
 }
 
+.Right > .Form > form > section  > p {
+    font-size: 15px;
+    color: red;
+    margin: 0px;
+}
+
 .Right > .Form > form > section > label {
     font-size: 1em;
 }
@@ -150,6 +156,15 @@ $left-size: 40vw;
         background-color: #a6d832;
         cursor: pointer;
     }
+}
+
+.Right > .Form > form > section:nth-child(6) > .Disabled {
+    opacity: 55%;
+    &:hover {
+        cursor: auto;
+        background-color: $secondary-color;
+    }
+    cursor: n-resize;
 }
 
 
